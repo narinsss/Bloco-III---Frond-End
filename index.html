@@ -5,22 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Pessoal - About me</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Para título use h1 - Básico do HTML5</h1>
-    <ul> Estrutura html da página
-        <li>
-            <a href="estrutura.html">Como utilizar img e iframe?</a>
-        </li>
-    </ul>
-    <h2>Subtítulo h2 - Tags importantes</h2>
-    <h3>Título de parágrafo usei o h3 - Como utilizar img e iframe?</h3>
-    <img src="https://cdo-curriculum.s3.amazonaws.com/media/uploads/img_tag.png" alt="como utilizar a tag img, onde o scr é para o url da imagem, e o alt para descrição" style="margin: auto; display: flex; width: 400px; height: 200px;">
-    <p>
+    <header class="header" id="header-id">
+        <ul id="menu-id" class="menu">
+            <li class="li-ndx" id="li-id-ndx"> Bloco de código {Tutoriais}
+                <ul id="ul-idum-ndx" class="ul-c-ndx">
+                    <a id="a-ndx" href="structure.html">Slide como do Instagram</a>
+                </ul>
+                <ul id="ul-id-ndx" class="ul-c-ndx">
+                    <a id="a-ndx" href="">Embaralhador</a>
+                </ul>
+                <ul id="ul-id-ndx" class="ul-c-ndx">
+                    <a id="a-ndx" href="">Menu Dropdown</a>
+                </ul>
+            </li>
+            <li class="li-ndx" id="li-idois-ndx"> About me
+                <ul id="ul-ium-ndx" class="ul-c-ndx">
+                    <a  id="adois-ndx" href="contact.html">Contato</a>
+                </ul>
+                <ul id="ul-idois-ndx" class="ul-c-ndx">
+                    <a  id="acur-ndx" href="contact.html">Currículo</a>
+                </ul>
+                <ul id="ul-idois-ndx" class="ul-c-ndx">
+                    <a  id="arepo-ndx" href="contact.html">Repositórios</a>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <h1 id="h1-id-ndx" class="h1-c-ndx">Para título use h1 - Básico do HTML5</h1>
+    <h2 id="h2-id-ndx" class="h2-c-ndx">Subtítulo h2 - Tags importantes</h2>
+    <h3 id="h3-id-ndx" class="h3-c-ndx">Título de parágrafo usei o h3 - Como utilizar img e iframe?</h3>
+    <img id="img-id-ndx" class="img-c" src="https://cdo-curriculum.s3.amazonaws.com/media/uploads/img_tag.png" alt="como utilizar a tag img, onde o scr é para o url da imagem, e o alt para descrição" style="margin: auto; display: flex; width: 400px; height: 200px;">
+    <p id="p-id-ndx" class="p-c">
         A figura mostra como inserir uma imagem através da tag <b>img</b>, podendo inserir um url na <b>src</b> público da internet, ou o caminho de um arquivo de imagem, porém o mais utilizado, recomendado e adequado é ser um link do navegador, e o <b>alt</b> deve conter informações da imagem, em caso de usuários com deficiência visual. <br>
         A tag <b>iframe</b> serve para inserir um vídeo do youtube no seu site, só será necessário a parte da largura, altura, <b>src</b> que será o link, e o <b>allowfullscreen</b>, para o usuário poder ver em tela cheia.
     </p> 
-    <div id="frame" style="justify-content: center; display: flex;">
+    <div id="frame" class="iframe" style="justify-content: center; display: flex;">
         <iframe width="500" height="300" src="https://www.youtube.com/embed/TL9btTpp2Ys" allowfullscreen>
         </iframe>
     </div>
