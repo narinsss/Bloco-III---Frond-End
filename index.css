@@ -218,3 +218,32 @@ footer{
 #copy, hr{
     color: #ffffff;
 }
+/*javascript*/
+#txtNome{
+    display: none;
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(185, 9, 9);
+}
+
+#txtEmail{
+    display: none;
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(185, 9, 9);
+}
+#txtAssunto{
+    display: none;
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(185, 9, 9);
+}
