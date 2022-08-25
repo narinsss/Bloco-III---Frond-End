@@ -10,19 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="min-height: 900px;">
     <h1 id="id_cnt" class="h1_c">Entre em contato comigo</h1>
     <form id="form-cnt" class="form-c">
         <label for="lname" id="lbl_name" class="label">Seu nome: </label>
         <input type="text" id="lname" class="inpt" onkeyup="validarNome()">
-        <div id="txtNome"></div>
+        <div id="txtNome">Nome inválido!</div>
         <label for="lemail" id="lbl_email" class="label">Seu e-mail: </label>
         <input type="email" id="lemail" class="inpt" onkeyup="validarEmail()">
-        <div id="txtEmail"></div>
+        <div id="txtEmail">Email inválido!</div>
         <label for="lsubjct" id="lbl_subjct" class="label">Assunto: </label>
-        <textarea type="text" id="lsubjct" name="lsubjct" class="inpt"></textarea>
-        <div id="txtAssunto"></div>
-        <button id="btn_send" class="button" type="button">Enviar</button>
+        <textarea type="text" id="lsubjct" name="lsubjct" class="inpt" onkeyup="validarAssunto()"></textarea>
+        <div id="txtAssunto">Limite excedido, digite no máximo 500 caracteres.</div>
+        <button id="btn_send" class="button" type="button" onclick="enviar()">Enviar</button>
         <a href="index.html">
             <button style="display: flex; margin: auto;" id="btn_back"> 
                 <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
@@ -32,7 +32,6 @@
               Retornar 
             </button>
         </a>
-    
     </form>
     <footer>
         <a href="https://www.linkedin.com/in/marina-rosa-a11666175/">
