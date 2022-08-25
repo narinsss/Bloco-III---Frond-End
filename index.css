@@ -10,7 +10,6 @@ h1, h2, h3, p{
 body{
     background-color: #000;
     background-image: linear-gradient(to bottom right, #000, #550988);
-    min-height: 900px;
 }
 
 /* Index, tela inicial
@@ -133,6 +132,9 @@ body{
 /*
 Pagina de contato
 */
+#foot{
+    bottom: 0;
+}
 .h1_c{
     margin: 60px 0 0 30px;
 }
@@ -144,6 +146,7 @@ Pagina de contato
     padding: 35px 40px 20px 40px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 10px;
     color: #fff;
     box-shadow: 5px 10px 10px 10px #00000054;
@@ -206,27 +209,41 @@ Pagina de contato
     height: 150px;
 }
 footer{
-    background-image: linear-gradient(to right bottom, rgba(51, 18, 66, 0.705), #3607558c, #936dd375, #3607558c); 
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.212), #55098859, rgba(0, 0, 0, 0.212), #5509886b); 
     text-align: center;
-    margin-top: 90px;
+    position: static;
+    padding-top: 20px;
+    bottom: 0;
 }
 #copy, hr{
     color: #ffffff;
 }
-/*
-javascript*/
+/*javascript*/
 #txtNome{
+    display: none;
     margin-top: -10px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     border-radius: 3px;
+    color: rgb(185, 9, 9);
 }
 
 #txtEmail{
+    display: none;
     margin-top: -10px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     border-radius: 3px;
+    color: rgb(185, 9, 9);
+}
+#txtAssunto{
+    display: none;
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(185, 9, 9);
 }
