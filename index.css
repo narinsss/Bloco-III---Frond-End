@@ -105,6 +105,11 @@ body{
     margin-bottom: 6px;
 }
 
+.h1-c-ndx{
+    font-size: 35px;
+    margin-bottom: 6px;
+}
+
 /* página de artigos */
 #box{
     margin: 80px 200px 30px 200px;
@@ -129,6 +134,7 @@ body{
     margin-top: 80px;
     border-radius: 8px;
 }*/
+
 /*
 Pagina de contato
 */
